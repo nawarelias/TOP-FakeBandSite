@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Twenty one Pilots | STORE</title>
+   <link rel="stylesheet" href="style.css" />
+   <script src="cart.js" async></script>
+</head>
+
+<body>
+   <header class="main-header">
+      <nav class="nav main-nav">
+         <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="top_about.html">ABOUT</a></li>
+            <li><a href="top_store.html">STORE</a></li>
+         </ul>
+      </nav>
+      <h1 class="band-name band-name-large">Twenty One Pilots</h1>
+   </header>
+   <section class="container content-section">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="shop-items">
+         <div class="shop-item">
+            <span class="shop-item-title">Debut Album</span>
+            <div>
+               <img class="shop-item-image" src="imagens/debut_album_cover.jpg" width="300">
+            </div>
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$9,99</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+         <div class="shop-item">
+            <span class="shop-item-title">Blurry Face</span>
+            <div>
+               <img class="shop-item-image" src="imagens/blurry_face_cover.png" width="300">
+            </div>
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$12,99</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+         <div class="shop-item">
+            <span class="shop-item-title">Trench</span>
+            <div>
+               <img class="shop-item-image" src="imagens/trench_cover.jpg" width="300">
+            </div>
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$15,99</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+         <div class="shop-item">
+            <span class="shop-item-title">Quiet is Violence</span>
+            <div>
+               <img class="shop-item-image" src="imagens/quiet_is_violent_cover.jpg" width="300">
+            </div>
+
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$19,99</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+   </section>
+   <section>
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
+         <div class="shop-item">
+            <span class="shop-item-title">TOP T-Shirt</span>
+            <div>
+               <img class="shop-item-image" src="imagens/top_shirt.jpg" width="300">
+            </div>
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$20,00</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+         <div class="shop-item">
+            <span class="shop-item-title">TOP Hat</span>
+            <div>
+               <img class="shop-item-image" src="imagens/top_hat.jpg" width="300">
+            </div>
+            <div class="shop-item-details">
+               <span class="shop-item-price">R$5,00</span>
+               <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+            </div>
+         </div>
+      </div>
+
+   </section>
+   <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+         <span class="cart-item cart-header cart-column">ITEM</span>
+         <span class="cart-price cart-header cart-column">PRICE</span>
+         <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items">
+         <div class="cart-row">
+            <div class="cart-item cart-column">
+               <img class="cart-item-image" src="imagens/top_shirt.jpg">
+               <span class="cart-item-title">T-Shirt</span>
+            </div>
+            <span class="cart-price cart-column">R$20,00</span>
+            <div class="cart-quantity cart-column">
+               <input class="cart-quantity-input" type="number" value="1">
+               <button class="btn btn-danger" role="button">REMOVE</button>
+            </div>
+         </div>
+         <div class="cart-row">
+            <div class="cart-item cart-column">
+               <img class="cart-item-image" src="imagens/debut_album_cover.jpg">
+               <span class="cart-item-title">Debut Album</span>
+            </div>
+            <span class="cart-price cart-column">R$9,99</span>
+            <div class="cart-quantity cart-column">
+               <input class="cart-quantity-input" type="number" value="2">
+               <button class="btn btn-danger" role="button">REMOVE</button>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="cart-total">
+         <span class="cart-total-title">Total:</span>
+         <span class="cart-total-price">R$38,98</span>
+      </div>
+
+      <button class="btn btn-primary btn-purchace" role="button">PURCHACE</button>
+
+   </section>
+   <footer class="main-footer">
+      <div class="container main-footer-container">
+         <h3 class="band-name band-name-small">Twenty One Pilots</h3>
+         <ul class="nav footer-nav">
+            <li><a href="https://www.instagram.com/twentyonepilots/" target="_blank"><img
+                     src="imagens/instagram_icon.png" width="30" alt="instagram icon"></a></li>
+            <li><a href="https://open.spotify.com/artist/3YQKmKGau1PzlVlkL1iodx" target="_blank"><img
+                     src="imagens/spotify_icon.png" width="30" alt="spotify icon"></a></li>
+            <li><a href="https://www.youtube.com/user/twentyonepilots" target="_blank"><img
+                     src="imagens/youtube_icon.png" width="38" alt="youtube icon"></a></li>
+         </ul>
+      </div>
+   </footer>
+</body>
+
+</html>
